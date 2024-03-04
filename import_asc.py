@@ -130,7 +130,7 @@ def create_object(i):
     bpy.context.collection.objects.link(obj)
     return obj
 
-folder = "C:/Users/RPSebb/Desktop/RGEALTI/datas/asc"
+folder = "path/to/datas"
 invert_res = 59
 previous = None
 filenames = sorted(os.listdir(folder))
