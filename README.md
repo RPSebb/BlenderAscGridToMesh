@@ -1,2 +1,2 @@
 # AscGridHeightToMesh
-Convert an asc file representing the height value of a geographic space to mesh.
+Convert an asc file representing the height of a geographic space to mesh.
