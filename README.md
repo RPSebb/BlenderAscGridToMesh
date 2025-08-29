@@ -51,6 +51,8 @@ folder = "/chemin/absolu/vers/vos/fichiers/asc"
 
 Le `README.md` de ce dépôt (ce fichier) inclut une capture de référence. Pour obtenir un résultat similaire, téléchargez plusieurs tuiles RGE ALTI® depuis l'IGN, placez-les dans votre `folder`, puis lancez `import_asc.py`.
 
+[Generated_Mesh.webm](https://github.com/RPSebb/BlenderAscGridToMesh/assets/26611434/03db01fb-813d-4b63-aa76-041da38a2ddb)
+
 ## Personnalisation
 
 - **Échelle :** actuellement, les coordonnées sont divisées par 1000 (pour passer des mètres aux kilomètres). Modifiez `create_verts` si vous souhaitez une autre échelle
@@ -76,8 +78,5 @@ Le script principal `import_asc.py` contient :
 ## Remerciements
 
 - **IGN France** pour les jeux de données RGE ALTI®
-- Les modules Blender `bpy` et `bmesh` pour la génération de maillage
 
 ## Licence
-
-Ce projet est fourni tel quel, sans garantie. Référez-vous à la licence du dépôt (si présente) ou adaptez le script pour un usage personnel.
