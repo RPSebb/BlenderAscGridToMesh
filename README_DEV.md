@@ -1,6 +1,6 @@
 # BlenderAscGridToMesh
 
-## Presentation
+## Présentation
 
 **BlenderAscGridToMesh** est un petit script Python destiné à Blender. Il lit des fichiers ASCII Grid (.asc) contenant un modèle numérique de terrain, puis génère un maillage 3D (mesh) correspondant. Il est pensé pour traiter plusieurs tuiles RGE ALTI® (données IGN françaises) et les fusionner en un seul objet Blender.
 
@@ -18,7 +18,6 @@ Ce script permet de :
 
 | Fichier | Rôle principal |
 |---------|---------------|
-| `README.md` | Brève description du projet et exemple de résultat |
 | `import_asc.py` | Script Blender : conversion des fichiers `.asc` en maillages 3D et assemblage des tuiles |
 
 Il n'y a pas d'autres modules ou dépendances ; tout se concentre dans ce script destiné à être exécuté depuis Blender (car il utilise `bpy` et `bmesh`).
@@ -67,30 +66,3 @@ Le script principal :
 - Lit les fichiers du dossier en ordre inversé
 - Crée chaque objet et fusionne progressivement avec le précédent
 - Appelle `create_missing_faces` pour relier proprement toutes les tuiles
-
-## Contexte d'utilisation
-
-- **Domaine** : modélisation géographique / SIG
-- **Outil ciblé** : Blender (via l'API Python `bpy`)
-- **Données source** : fichiers ASCII Grid (ex. RGE ALTI®) contenant des altitudes
-- **But** : obtenir rapidement un maillage 3D simplifié à partir de données terrain, potentiellement pour visualisation, modélisation, ou export vers d'autres formats
-
-## Installation et utilisation
-
-### Prérequis
-- Blender (version récente avec support Python)
-- Fichiers ASCII Grid (.asc) de données d'altitude
-
-### Utilisation
-1. Ouvrir Blender
-2. Modifier la variable `folder` dans le script pour pointer vers votre dossier de fichiers .asc
-3. Exécuter le script depuis l'éditeur de texte de Blender
-4. Le maillage 3D fusionné apparaîtra dans la scène
-
-### Optimisation
-- Ajuster la variable `invert_res` pour contrôler la résolution du maillage final
-- Plus la valeur est élevée, plus le maillage sera simplifié (mais moins précis)
-
-## Résumé
-
-Ce dépôt fournit un script clé-en-main (mais à adapter au chemin des données) pour convertir et fusionner plusieurs tuiles d'un MNT en un maillage Blender cohérent. Il est particulièrement adapté pour traiter les données RGE ALTI® de l'IGN française, mais peut fonctionner avec tout fichier ASCII Grid standard.
