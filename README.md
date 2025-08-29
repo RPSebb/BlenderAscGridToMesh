@@ -77,6 +77,6 @@ Le script principal `import_asc.py` contient :
 
 ## Remerciements
 
-- **IGN France** pour les jeux de données RGE ALTI®
+- [**IGN France** pour les jeux de données RGE ALTI®](https://geoservices.ign.fr/rgealti)
 
 ## Licence
