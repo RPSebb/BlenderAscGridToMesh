@@ -1,10 +1,10 @@
 # BlenderAscGridToMesh
 
-**Demo
-
-[Generated_Mesh.webm](https://github.com/RPSebb/BlenderAscGridToMesh/assets/26611434/03db01fb-813d-4b63-aa76-041da38a2ddb)
+## Presentation
 
 **BlenderAscGridToMesh** est un petit script Python destiné à Blender. Il lit des fichiers ASCII Grid (.asc) contenant un modèle numérique de terrain, puis génère un maillage 3D (mesh) correspondant. Il est pensé pour traiter plusieurs tuiles RGE ALTI® (données IGN françaises) et les fusionner en un seul objet Blender.
+
+[Generated_Mesh.webm](https://github.com/RPSebb/BlenderAscGridToMesh/assets/26611434/03db01fb-813d-4b63-aa76-041da38a2ddb)
 
 ## Vue d'ensemble du projet
 
